@@ -52,7 +52,10 @@ const Logo = ({ invert, href, className, children, ...props }) => {
 
   return (
     <h2
-      className={clsx("cursor-pointer text-2xl font-semibold", className)}
+      className={clsx(
+        "cursor-pointer md:text-2xl sm:text-xl font-semibold",
+        className
+      )}
       {...props}
     >
       <span className="relative logo-text">{initialChars}</span>

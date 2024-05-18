@@ -30,7 +30,11 @@ const Header = ({
           <Logo invert={invert} />
         </Link>
         <div className="flex items-center gap-x-8">
-          <Button href={"/contact"} invert={invert}>
+          <Button
+            href={"/contact"}
+            invert={invert}
+            className={"hidden sm:block"}
+          >
             Contact
           </Button>
           <button
