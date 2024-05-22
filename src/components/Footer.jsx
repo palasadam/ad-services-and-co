@@ -4,26 +4,20 @@ import FadeIn from "./FadeIn";
 import FooterNavigation from "./FooterNavigation";
 import Link from "next/link";
 import Logo from "./Logo";
+import Image from "next/image";
+import logo from "@/images/logo.png";
 
 const NewsLetterForm = () => {
   return (
-    <form className="max-w-sm">
-      <h2 className="font-display text-sm font-semibold tracking-wider text-neutral-900">
-        Abonnez-vous à la newsletter
-      </h2>
-      <div>
-        <input
-          type="email"
-          placeholder="Email Address"
-          autoComplete="email"
-          aria-label="Email adress"
-          className="block w-full rounded-2xl border border-neutral-300 bg-transparent py-4 pl-6 pr-20 text-base/6
-            text-neutral-950 ring-4 ring-transparent transition placeholder:text-neutral-500 focus:border-neutral-950
-            focus:outline-none focus:ring-neutral-950/5   
-          "
-        />
-      </div>
-    </form>
+    <div>
+      <Image
+        src={logo}
+        width={240}
+        height={175}
+        alt="Main Image"
+        className="rounded-lg"
+      />
+    </div>
   );
 };
 
@@ -33,7 +27,7 @@ const Footer = () => {
       <FadeIn>
         <div className="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2">
           <FooterNavigation />
-          <div className="flex lg:justify-end">
+          <div className="flex justify-center lg:justify-end">
             <NewsLetterForm />
           </div>
         </div>
