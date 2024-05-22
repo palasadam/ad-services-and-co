@@ -10,7 +10,7 @@ const Logo = ({ invert, href, className, children, ...props }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       setExpanded((prev) => !prev);
-    }, 6000); // Her 12 saniyede bir değiştir
+    }, 6000); // Her 6 saniyede bir değiştir
     return () => clearInterval(interval);
   }, []);
 
@@ -55,7 +55,7 @@ const Logo = ({ invert, href, className, children, ...props }) => {
       className={clsx("cursor-pointer text-2xl font-semibold", className)}
       {...props}
     >
-      <span className="relative logo-text">{initialChars}</span>
+      <span className="absolute logo-text">{initialChars}</span>
       <span className="relative logo-text">{chars}</span>
     </h2>
   );
