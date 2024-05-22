@@ -22,7 +22,7 @@ const Logo = ({ invert, href, className, children, ...props }) => {
   );
 
   const initialText = "A & D";
-  const expandedText = "AD SERVICES AND CO";
+  const expandedText = "A & D SERVICES AND CO.";
 
   const chars = expandedText.split("").map((char, index) => (
     <span
