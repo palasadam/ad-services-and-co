@@ -88,12 +88,12 @@ const Navigation = () => {
   return (
     <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
       <NavigationRow>
-        <NavigationItem href={"/services"}>Services</NavigationItem>
+        <NavigationItem href="/processus">Services</NavigationItem>
         <NavigationItem href={"/about"}>Qui sommes-nous?</NavigationItem>
       </NavigationRow>
       <NavigationRow>
-        <NavigationItem href="/processus">Notre Processus</NavigationItem>
         <NavigationItem href="/contact">Contact</NavigationItem>
+        <NavigationItem href={"/"}></NavigationItem>
       </NavigationRow>
     </nav>
   );

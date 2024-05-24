@@ -3,7 +3,6 @@ import GridPattern from "./GridPattern";
 import clsx from "clsx";
 import Container from "./Container";
 import FadeIn from "./FadeIn";
-import Image from "next/image";
 
 const Testimonials = ({ children, client, className }) => {
   return (
@@ -26,7 +25,7 @@ const Testimonials = ({ children, client, className }) => {
               </p>
             </blockquote>
             <figcaption className="flex items-center  mt-10">
-              <Image src={client.logo} alt={client.name} unoptimized />
+              <div className="text-2xl mr-1">{client.logo}</div>
               <span className="text-base font-display font-medium  tracking-tight text-neutral-950">
                 {client.name}
               </span>

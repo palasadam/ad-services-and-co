@@ -3,8 +3,8 @@ import FadeIn from "@/components/FadeIn";
 import Testimonials from "@/components/Testimonials";
 import MainImage from "@/images/main.png";
 import Image from "next/image";
-import logoHome from "@/images/clients/phobia/logomark-dark.svg";
 import Services from "@/components/Services";
+import { BiSolidHappyHeartEyes } from "react-icons/bi";
 
 export default function Home() {
   return (
@@ -36,10 +36,11 @@ export default function Home() {
 
       <Testimonials
         className={"mt-24 sm:mt-32 lg:mt-40"}
-        client={{ name: "Julia", logo: logoHome }}
+        client={{ name: "Nicolas", logo: <BiSolidHappyHeartEyes /> }}
       >
-        Service sérieux et professionnel. Équipe à l&apos;écoute de ses clients.
-        Un bon moyen de générer un revenu avec peu d&apos;effort !
+        Réactivité et communication exceptionnelle, je suis ravi de travailler
+        avec une équipe à l&apos;écoute de ses clients qui fait preuve d&apos;un
+        professionnalisme irréprochable
       </Testimonials>
     </main>
   );

@@ -2,20 +2,19 @@ import Build from "@/components/Build";
 import Deliver from "@/components/Deliver";
 import Discover from "@/components/Discover";
 import PageIntro from "@/components/PageIntro";
-import Values from "@/components/Values";
 import React from "react";
 
 const ProcessusPage = () => {
   return (
     <div>
-      <PageIntro eyebrow="Notre Processus" title="On résume :">
+      <PageIntro
+        eyebrow=" Nos services de conciergerie"
+        title="On s’occupe de tout et on le fait bien "
+      >
         <p>
-          &apos;&apos; Bu alan yazilacak &apos;&apos;
+          Notre équipe vous propose un service complet, de la visibilité de
+          votre annonce sur Airbnb à l&apos;entretien de votre logement.
           <br />
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-          assumenda possimus iusto ex saepe molestias qui atque, aspernatur
-          nesciunt culpa! Deleniti dicta voluptatem eos excepturi quisquam
-          molestiae laborum laboriosam adipisci?
         </p>
       </PageIntro>
       <div className="mt-24 space-y-24 [counter-reset:section] sm:mt-32 sm:space-y-32 lg:mt-40 lg:space-y-40">
@@ -25,8 +24,6 @@ const ProcessusPage = () => {
         {/* Deliver */}
         <Deliver />
       </div>
-      {/* Values */}
-      <Values />
     </div>
   );
 };

@@ -1,13 +1,14 @@
 import Link from "next/link";
 import clsx from "clsx";
-import { BsFacebook, BsTwitter, BsYoutube, BsLinkedin } from "react-icons/bs";
+import {
+  BsFacebook,
+  BsTwitter,
+  BsYoutube,
+  BsLinkedin,
+  BsInstagram,
+} from "react-icons/bs";
 
 export const SocialMediaProfiles = [
-  {
-    title: "YouTube",
-    href: "https://www.youtube.com/",
-    icon: BsYoutube,
-  },
   {
     title: "Facebook",
     href: "https://www.facebook.com/",
@@ -19,9 +20,9 @@ export const SocialMediaProfiles = [
     icon: BsTwitter,
   },
   {
-    title: "LinkedIn",
-    href: "https://www.linkedin.com/",
-    icon: BsLinkedin,
+    title: "Instagram",
+    href: "https://instagram.com/",
+    icon: BsInstagram,
   },
 ];
 
