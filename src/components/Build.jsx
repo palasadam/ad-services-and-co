@@ -16,6 +16,11 @@ const Build = () => {
             ON S&apos;OCCUPE DE TOUT & ON LE FAIT COMME SI C&apos;ETAIT CHEZ
             NOUS !{" "}
           </strong>
+          Disponible 7/7 j., nous sommes en communication quotidienne avec les
+          &apos;&apos;guests&apos;&apos; prêts à intervenir en cas de besoin ou
+          d&apos;urgence. AD Services & Co. dispose d&apos;ailleurs d&apos;une
+          équipe maintenance capable d&apos;intervenir dans différents domaines
+          en cas d&apos;urgence.
         </p>
       </div>
       {/* <Blockquote

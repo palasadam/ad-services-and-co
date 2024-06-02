@@ -4,10 +4,9 @@ export const navigation = [
   {
     title: "Services",
     links: [
-      { title: "Votre annonce Airbnb", href: "/services/annonce-airbnb" },
-      { title: "Vos clés", href: "/services/clé-airbnb" },
-      { title: "Le ménage et le linge", href: "/services/menage-airbnb" },
-      { title: "Les voyageurs", href: "/services/check-in-out-airbnb" },
+      { title: "Vos clés", href: "/services" },
+      { title: "Le ménage et le linge", href: "/services" },
+      { title: "Les voyageurs", href: "/services" },
       {
         title: (
           <>

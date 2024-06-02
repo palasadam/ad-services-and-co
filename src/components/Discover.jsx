@@ -22,11 +22,6 @@ const Discover = () => {
         Les voyageurs ont à disposition une personne totalement à l&apos;écoute
         avant, pendant et lors de la fin de leur séjour.{" "}
       </h3>
-      <TagList className="mt-4">
-        <TagListItem>test 1</TagListItem>
-        <TagListItem>test 1</TagListItem>
-        <TagListItem>test 1</TagListItem>
-      </TagList>
     </Section>
   );
 };

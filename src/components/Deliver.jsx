@@ -22,11 +22,6 @@ const Deliver = () => {
         </p>
       </div>
       <br />
-      <List>
-        <ListItem title="test1">qsdfqsdf</ListItem>
-        <ListItem title="test2">qsdfqsdf</ListItem>
-        <ListItem title="test3">qsdfqsdqsdf </ListItem>
-      </List>
     </Section>
   );
 };

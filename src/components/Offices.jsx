@@ -21,7 +21,7 @@ const Offices = ({ invert = false, ...props }) => {
     <ul role="list" {...props}>
       <li>
         <Office name="France" invert={invert}>
-          Paris & Neuilly-sur-Seine
+          Paris
         </Office>
       </li>
       <li>

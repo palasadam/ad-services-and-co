@@ -7,8 +7,9 @@ const Section = ({ title, image, children }) => {
   return (
     <Container className="group/section [counter-increment:section]">
       <div className="lg:flex lg:items-center lg:justify-end lg:gap-x-8 lg:group-even/section:justify-start xl:gap-x-20">
-        <div className="flex justify-center">
-          <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
+        <div className="flex justify-center w-full">
+          <FadeIn className="flex-none w-full max-w-full lg:max-w-[45rem] xl:max-w-[41rem] 2xl:max-w-full">
+            {/* Responsive and dynamic sizing adjustments */}
             <StylizedImage
               {...image}
               sizes="(min-width: 1024px) 41rem, 31rem"
