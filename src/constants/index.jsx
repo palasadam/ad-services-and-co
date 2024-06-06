@@ -4,16 +4,16 @@ export const navigation = [
   {
     title: "Services",
     links: [
-      { title: "Vos clés", href: "/services" },
-      { title: "Le ménage et le linge", href: "/services" },
-      { title: "Les voyageurs", href: "/services" },
+      { title: "Vos clés", href: "/processus" },
+      { title: "Le ménage et le linge", href: "/processus" },
+      { title: "Les voyageurs", href: "/processus" },
       {
         title: (
           <>
             See all <span aria-hidden="true">&rarr;</span>
           </>
         ),
-        href: "/services",
+        href: "/processus",
       },
     ],
   },
